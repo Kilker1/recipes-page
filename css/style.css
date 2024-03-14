@@ -1,0 +1,150 @@
+:root {
+  --primario-cafe: hsl(14, 45%, 36%);
+  --primario-rosa: hsl(332, 51%, 32%);
+  --blanco: white;
+  --blanco-opaco: #6b193b0c;
+  --blanco-mas-opaco: hsl(30, 54%, 90%);
+  --gris: hsl(30, 18%, 87%);
+  --gris-opaco: hsl(30, 10%, 34%);
+  --negro-claro: hsl(24, 5%, 18%);
+
+  --fuente-principal: 'Young Serif', sans-serif;
+  --fuente-secundaria: 'Outfit', sans-serif;
+  ;
+}
+
+/* Globals */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fuente-secundaria);
+  background-color: #F3E5D8;
+}
+
+main {
+  margin: 0 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  color: var(--primario-cafe);
+  font-family: var(--fuente-principal);
+}
+
+
+main {
+  font-size: 1.7rem;
+  background-color: white;
+}
+
+.main {
+  width: 50vw;
+  margin: 3rem auto;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2.5rem;
+}
+
+/* Header Image */
+
+.container {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.container__image {
+  max-width: 950px;
+  display: block;
+  margin: auto;
+  padding: 12px;
+  border-radius: 30px;
+  width: 95%;
+  border-radius: 2rem;
+}
+
+/* Main Info */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1.5rem;
+  color: var(--primario-cafe);
+  font-family: var(--fuente-principal);
+}
+
+.main-info__text {
+  font-size: 1.7rem;
+}
+
+.recipe-data {
+  background-color: var(--blanco-opaco);
+  border-radius: 1rem;
+  padding: .3rem;
+  margin: 3rem 0;
+}
+
+.recipe-data__title {
+  color: var(--primario-rosa);
+  padding-left: 2.5rem;
+  font-size: 2.2rem;
+  margin: .6rem;
+}
+
+.recipe-time-list {
+  font-size: 1.7rem;
+  margin: .8rem 0;
+}
+
+.recipe-time__element {
+  padding: .4rem;
+}
+
+/* Instructions */
+
+.instructions-list__element::marker {
+  font-weight: bold;
+  color: var(--primario-cafe);
+}
+
+.instructions-list__element {
+  padding-left: 1rem;
+}
+
+/* Nutrition */
+.nutritional-values {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.nutritional-values__text--title {
+  width: 66rem;
+}
+
+.nutritional-values {
+  text-align: start;
+  font-weight: bold;
+  font-size: 1.9rem;
+  color: var(--primario-cafe);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
